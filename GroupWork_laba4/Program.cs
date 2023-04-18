@@ -61,7 +61,36 @@ namespace GroupWork_laba4
                 }
             } while (choice != 0 && choice != 1 && choice != 2);
         }
-       
+
+        static void Block1RandomFill()
+        {
+            Console.WriteLine("Введiть кiлькiсть елементiв одновимiрного масиву:");
+            int elements = int.Parse(Console.ReadLine());
+            int[] arr = new int[elements];
+            Random rnd = new Random();
+            for (int i = 0; i < arr.Length; i++)
+            {
+                arr[i] = rnd.Next(-500, 501);
+            }
+            StudentChoice(arr);
+        }
+        static void Block1UserFill()
+        {
+            Console.WriteLine("Введiть елементи одновимiрного масиву через пробiл:");
+            string[] str = Console.ReadLine().Trim().Split();
+            int[] arr = new int[str.Length];
+            for (int i = 0; i < arr.Length; i++)
+            {
+                arr[i] = int.Parse(str[i]);
+            }
+            StudentChoice(arr);
+        }
+        static void Array1Output(int[] arr)
+        {
+            Console.WriteLine("Поточний стан масиву:");
+            Console.WriteLine(string.Join(" ", arr));
+        }
+
         static void StudentChoice(int[] arr)
         {
             int choice;
@@ -84,7 +113,8 @@ namespace GroupWork_laba4
                         Console.WriteLine("kis");
                         break;
                     case 3:
-                        Console.WriteLine("an");
+                        Anishchenko a = new Anishchenko();
+                        a.InsertArrBeforeNum(ref arr);
                         break;
                     case 4:
                         Array1Output(arr);
@@ -195,7 +225,8 @@ namespace GroupWork_laba4
                         Console.WriteLine("kis");
                         break;
                     case 3:
-                        Console.WriteLine("an");
+                        Anishchenko a = new Anishchenko();
+                        a.AddRoWAfterEvenRow(ref arr);
                         break;
                     case 4:
                         Array2Output(arr);
