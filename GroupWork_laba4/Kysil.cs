@@ -49,6 +49,7 @@ namespace GroupWork_laba4
                 }
                 arr = mass;
             }
+            Console.WriteLine("Змінений масив:");
             Output1(arr);
         }
         public void AddRowAfterFirstRowWithMaxElem(ref int[][] arr)
@@ -71,6 +72,7 @@ namespace GroupWork_laba4
         }
         static int[] InputRow(int[][]arr)
         {
+            Console.WriteLine("Введіть рядок довжиною {arr[0].Length}, який Ви хочете додати")
             string[] str = Console.ReadLine().Trim().Split();
             int[] row = new int[arr[0].Length];
             for (int i = 0; i < arr[0].Length; i++)
@@ -90,6 +92,7 @@ namespace GroupWork_laba4
         }
         static void Output2(int[][] arr)
         {
+            Console.WriteLine("Змінений масив:")
             for (int i = 0; i < arr.Length; i++)
             {
                 for (int j = 0; j < arr[i].Length; j++)
