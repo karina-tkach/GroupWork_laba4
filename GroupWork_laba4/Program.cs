@@ -110,7 +110,8 @@ namespace GroupWork_laba4
                         t.Insert1BeforeEven();
                         break;
                     case 2:
-                        Console.WriteLine("kis");
+                        Kysil k = new Kysil();
+                        k.InsertHalfOfMaxNum(ref arr);
                         break;
                     case 3:
                         Anishchenko a = new Anishchenko();
@@ -222,7 +223,8 @@ namespace GroupWork_laba4
                         t.AddRowAfterLastRowWithTheSmallestElement();
                         break;
                     case 2:
-                        Console.WriteLine("kis");
+                        Kysil k = new Kysil();
+                        k.AddRowAfterFirstRowWithMaxElem(ref arr);
                         break;
                     case 3:
                         Anishchenko a = new Anishchenko();
