@@ -12,8 +12,8 @@ namespace GroupWork_laba4
             int choice;
             do
             {
-                Console.WriteLine("Якщо ви хочете виконати завдання за допомогою масиву введiть 1");
-                Console.WriteLine("Якщо ви хочете виконати завдання за допомогою колекцiї List введiть 2");
+                Console.WriteLine("Якщо ви хочете виконати завдання за допомогою масиву, введiть 1");
+                Console.WriteLine("Якщо ви хочете виконати завдання за допомогою колекцiї List, введiть 2");
                 choice = int.Parse(Console.ReadLine());
                 switch (choice)
                 {
@@ -98,8 +98,8 @@ namespace GroupWork_laba4
             int choice;
             do
             {
-                Console.WriteLine("Якщо ви хочете виконати завдання за допомогою масиву введiть 1");
-                Console.WriteLine("Якщо ви хочете виконати завдання за допомогою колекцiї List введiть 2");
+                Console.WriteLine("Якщо ви хочете виконати завдання за допомогою масиву, введiть 1");
+                Console.WriteLine("Якщо ви хочете виконати завдання за допомогою колекцiї List, введiть 2");
                 choice = int.Parse(Console.ReadLine());
                 switch (choice)
                 {
