@@ -106,8 +106,8 @@ namespace GroupWork_laba4
             int choice;
             do
             {
-                Console.WriteLine("Якщо ви хочете створити масив, заповнивши випадково введiть 1");
-                Console.WriteLine("Якщо ви хочете створити масив, заповнивши з клавiатури введiть 2");
+                Console.WriteLine("Якщо ви хочете створити масив, заповнивши випадково, введiть 1");
+                Console.WriteLine("Якщо ви хочете створити масив, заповнивши з клавiатури, введiть 2");
                 Console.WriteLine("Для виходу в головне меню введiть 0");
                 choice = int.Parse(Console.ReadLine());
                 switch (choice)
@@ -126,6 +126,51 @@ namespace GroupWork_laba4
                         break;
                 }
             } while (choice != 0 && choice != 1 && choice != 2);
+        }
+        static void Block2RandomFill()
+        {
+            Console.WriteLine("Введiть через пробiл кiлькiсть рядочкiв та стовпчикiв прямокутного масиву:");
+            string[] str = Console.ReadLine().Trim().Split();
+            int rows = Convert.ToInt32(str[0]);
+            int cols = Convert.ToInt32(str[1]);
+            int[][] arr = new int[rows][];
+            Random rnd = new Random();
+            for (int i = 0; i < rows; i++)
+            {
+                arr[i] = new int[cols];
+                for (int j = 0; j < cols; j++)
+                {
+                    arr[i][j] = rnd.Next(-500,501);
+                }
+            }
+            StudentChoice(arr);
+        }
+        static void Block2UserFill()
+        {
+            Console.WriteLine("Введiть через пробiл кiлькiсть рядочкiв та стовпчикiв прямокутного масиву:");
+            string[] str = Console.ReadLine().Trim().Split();
+            int rows = Convert.ToInt32(str[0]);
+            int cols = Convert.ToInt32(str[1]);
+            int[][] arr = new int[rows][];
+            Console.WriteLine("Введiть через Enter кожен рядок, елементи розділіть пробiлом");
+            for (int i = 0; i < rows; i++)
+            {
+                arr[i] = new int[cols];
+                string[] str1 = Console.ReadLine().Trim().Split();
+                for (int j = 0; j < cols; j++)
+                {
+                    arr[i][j] = int.Parse(str1[j]);
+                }
+            }
+            StudentChoice(arr);
+        }
+        static void Array2Output(int[][] arr)
+        {
+            Console.WriteLine("Поточний стан масиву:");
+            for (int i = 0; i < arr.Length; i++)
+            {
+                Console.WriteLine(string.Join(" ", arr[i]));
+            }
         }
         
         static void StudentChoice(int[][] arr)
