@@ -107,7 +107,7 @@ namespace GroupWork_laba4
                 {
                     case 1:
                         Tkach t = new Tkach();
-                        t.Insert1BeforeEven();
+                        t.Insert1BeforeEven(ref arr);
                         break;
                     case 2:
                         Console.WriteLine("kis");
@@ -219,7 +219,7 @@ namespace GroupWork_laba4
                 {
                     case 1:
                         Tkach t = new Tkach();
-                        t.AddRowAfterLastRowWithTheSmallestElement();
+                        t.AddRowAfterLastRowWithTheSmallestElement(ref arr);
                         break;
                     case 2:
                         Console.WriteLine("kis");
