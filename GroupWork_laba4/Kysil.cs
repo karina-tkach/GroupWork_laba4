@@ -20,9 +20,13 @@ namespace GroupWork_laba4
             count = 0;
             for (int i = 0; i < array.Length; i++)
             {
-                if (max <= array[i])
+                if (max < array[i])
                 {
                     max = array[i];
+                    count = 0;
+                }
+                if (max == array[i])
+                {
                     count++;
                 }
             }
