@@ -15,10 +15,10 @@ namespace GroupWork_laba4
 
         public void InsertArrBeforeNum(ref int[] arr)
         {
-            Console.WriteLine("Введіть розмір вставки");
+            Console.WriteLine("Введiть розмiр вставки");
             int size = int.Parse(Console.ReadLine());
             int[] paste = new int[size];
-            Console.WriteLine("Введіть елементи вставки");
+            Console.WriteLine("Введiть елементи вставки");
             string[] str = Console.ReadLine().Split();
             for (int i = 0; i < str.Length; i++)
             {
@@ -29,7 +29,7 @@ namespace GroupWork_laba4
             bool ispossible = false;
             while (!ispossible)
             {
-                Console.WriteLine("Введіть позицію вставки");
+                Console.WriteLine("Введiть позицiю вставки");
                 pos = int.Parse(Console.ReadLine());
                 if (pos > 0 && pos < arr.Length)
                 {
@@ -37,7 +37,7 @@ namespace GroupWork_laba4
                 }
                 else
                 {
-                    Console.WriteLine("Неможливо вставити на цю позицію");
+                    Console.WriteLine("Неможливо вставити на цю позицiю");
                 }
             }
 
@@ -89,13 +89,13 @@ namespace GroupWork_laba4
             int[][] res = new int[arr.Length + numberOfRows][];
             int[][] insert = new int[numberOfRows][];
 
-            Console.WriteLine("Введіть довжини вставлених рядків матриці");
+            Console.WriteLine("Введiть довжини вставлених рядкiв матрицi");
             for (int i = 0; i < numberOfRows; i++)
             {
-                Console.WriteLine($"Введіть довжину рядка {i + 1}");
+                Console.WriteLine($"Введiть довжину рядка {i + 1}");
                 string input = Console.ReadLine();
                 insert[i] = new int[int.Parse(input)];
-                Console.WriteLine($"Введіть елементи рядка {i + 1}");
+                Console.WriteLine($"Введiть елементи рядка {i + 1}");
                 string[] str = Console.ReadLine().Split();
                 for (int j = 0; j < int.Parse(input); j++)
                 {
