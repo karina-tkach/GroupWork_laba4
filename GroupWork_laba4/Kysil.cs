@@ -76,7 +76,7 @@ namespace GroupWork_laba4
         }
         static int[] InputRow(int[][]arr)
         {
-            Console.WriteLine("Введіть рядок довжиною {arr[0].Length}, який Ви хочете додати")
+            Console.WriteLine($"Введіть рядок довжиною {arr[0].Length}, який Ви хочете додати");
             string[] str = Console.ReadLine().Trim().Split();
             int[] row = new int[arr[0].Length];
             for (int i = 0; i < arr[0].Length; i++)
@@ -88,15 +88,15 @@ namespace GroupWork_laba4
         static void Insert(ref int[][] arr, int[] row, int firstIndex)
         {
             Array.Resize(ref arr, arr.Length + 1);
-            for (int i = arr.Length - 1; i > firstIndex; i--)
+            for (int i = arr.Length - 1; i > firstIndex + 1; i--)
             {
                 arr[i] = arr[i - 1];
             }
-            arr[firstIndex] = row;
+            arr[firstIndex + 1] = row;
         }
         static void Output2(int[][] arr)
         {
-            Console.WriteLine("Змінений масив:")
+            Console.WriteLine("Змінений масив:");
             for (int i = 0; i < arr.Length; i++)
             {
                 for (int j = 0; j < arr[i].Length; j++)
