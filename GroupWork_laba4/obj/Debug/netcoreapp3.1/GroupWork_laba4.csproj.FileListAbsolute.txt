@@ -4,7 +4,6 @@ C:\Users\Lenochka\source\repos\GroupWork_laba4\GroupWork_laba4\bin\Debug\netcore
 C:\Users\Lenochka\source\repos\GroupWork_laba4\GroupWork_laba4\bin\Debug\netcoreapp3.1\GroupWork_laba4.runtimeconfig.dev.json
 C:\Users\Lenochka\source\repos\GroupWork_laba4\GroupWork_laba4\bin\Debug\netcoreapp3.1\GroupWork_laba4.dll
 C:\Users\Lenochka\source\repos\GroupWork_laba4\GroupWork_laba4\bin\Debug\netcoreapp3.1\GroupWork_laba4.pdb
-C:\Users\Lenochka\source\repos\GroupWork_laba4\GroupWork_laba4\obj\Debug\netcoreapp3.1\GroupWork_laba4.csproj.AssemblyReference.cache
 C:\Users\Lenochka\source\repos\GroupWork_laba4\GroupWork_laba4\obj\Debug\netcoreapp3.1\GroupWork_laba4.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Lenochka\source\repos\GroupWork_laba4\GroupWork_laba4\obj\Debug\netcoreapp3.1\GroupWork_laba4.AssemblyInfoInputs.cache
 C:\Users\Lenochka\source\repos\GroupWork_laba4\GroupWork_laba4\obj\Debug\netcoreapp3.1\GroupWork_laba4.AssemblyInfo.cs
