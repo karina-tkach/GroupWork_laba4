@@ -75,7 +75,7 @@ namespace GroupWork_laba4
             }
         }
 
-        public static void AddRoWAfterEvenRow(ref int[][] arr)
+        public void AddRoWAfterEvenRow(ref int[][] arr)
         {
             int numberOfRows = 0;
             for (int i = 0; i < arr.Length; i++)
