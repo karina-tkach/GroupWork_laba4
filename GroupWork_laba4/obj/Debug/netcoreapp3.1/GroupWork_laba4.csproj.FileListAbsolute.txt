@@ -11,3 +11,17 @@ C:\Users\Lenochka\source\repos\GroupWork_laba4\GroupWork_laba4\obj\Debug\netcore
 C:\Users\Lenochka\source\repos\GroupWork_laba4\GroupWork_laba4\obj\Debug\netcoreapp3.1\GroupWork_laba4.dll
 C:\Users\Lenochka\source\repos\GroupWork_laba4\GroupWork_laba4\obj\Debug\netcoreapp3.1\GroupWork_laba4.pdb
 C:\Users\Lenochka\source\repos\GroupWork_laba4\GroupWork_laba4\obj\Debug\netcoreapp3.1\GroupWork_laba4.genruntimeconfig.cache
+C:\Users\Admin\source\repos\GroupWork_laba4\GroupWork_laba4\bin\Debug\netcoreapp3.1\GroupWork_laba4.exe
+C:\Users\Admin\source\repos\GroupWork_laba4\GroupWork_laba4\bin\Debug\netcoreapp3.1\GroupWork_laba4.deps.json
+C:\Users\Admin\source\repos\GroupWork_laba4\GroupWork_laba4\bin\Debug\netcoreapp3.1\GroupWork_laba4.runtimeconfig.json
+C:\Users\Admin\source\repos\GroupWork_laba4\GroupWork_laba4\bin\Debug\netcoreapp3.1\GroupWork_laba4.runtimeconfig.dev.json
+C:\Users\Admin\source\repos\GroupWork_laba4\GroupWork_laba4\bin\Debug\netcoreapp3.1\GroupWork_laba4.dll
+C:\Users\Admin\source\repos\GroupWork_laba4\GroupWork_laba4\bin\Debug\netcoreapp3.1\GroupWork_laba4.pdb
+C:\Users\Admin\source\repos\GroupWork_laba4\GroupWork_laba4\obj\Debug\netcoreapp3.1\GroupWork_laba4.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\GroupWork_laba4\GroupWork_laba4\obj\Debug\netcoreapp3.1\GroupWork_laba4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\source\repos\GroupWork_laba4\GroupWork_laba4\obj\Debug\netcoreapp3.1\GroupWork_laba4.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\GroupWork_laba4\GroupWork_laba4\obj\Debug\netcoreapp3.1\GroupWork_laba4.AssemblyInfo.cs
+C:\Users\Admin\source\repos\GroupWork_laba4\GroupWork_laba4\obj\Debug\netcoreapp3.1\GroupWork_laba4.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\GroupWork_laba4\GroupWork_laba4\obj\Debug\netcoreapp3.1\GroupWork_laba4.dll
+C:\Users\Admin\source\repos\GroupWork_laba4\GroupWork_laba4\obj\Debug\netcoreapp3.1\GroupWork_laba4.pdb
+C:\Users\Admin\source\repos\GroupWork_laba4\GroupWork_laba4\obj\Debug\netcoreapp3.1\GroupWork_laba4.genruntimeconfig.cache

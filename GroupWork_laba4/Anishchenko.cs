@@ -66,12 +66,15 @@ namespace GroupWork_laba4
             ArrayOutput(res);
         }
 
-        static void JaggedArrayOutput(int[][] arr)
+        static void Output(int[][] arr)
         {
-            Console.WriteLine("Змiнений масив:");
             for (int i = 0; i < arr.Length; i++)
             {
-                Console.WriteLine(string.Join(" ", arr[i]));
+                for (int j = 0; j < arr[i].Length; j++)
+                {
+                    Console.Write($"{arr[i][j]} ");
+                }
+                Console.WriteLine();
             }
         }
 
@@ -109,7 +112,7 @@ namespace GroupWork_laba4
             int arrRows = arr.Length;
             int insertRows = insert.Length;
 
-            while ((arrRows != 0) & (insertRows != 0))
+            while ((arrRows != 0) | (insertRows != 0))
             {
                 if (arrRows != 0)
                 {
@@ -145,7 +148,7 @@ namespace GroupWork_laba4
                 }
             }
 
-            JaggedArrayOutput(res);
+            Output(res);
         }
 
     }
